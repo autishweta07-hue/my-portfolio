@@ -71,7 +71,6 @@ export const RenderBlocks: React.FC<{
             
             <Block
               {...block}
-              disableInnerContainer
             />
           </div>
         )
