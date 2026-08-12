@@ -44,7 +44,7 @@ export const HeaderClient: React.FC<HeaderClientProps> = ({ data }) => {
         <Link href="/" className="flex items-center">
           <Logo
             loading="eager"
-            priority="high"
+            priority
             className="h-auto max-w-[220px]"
           />
         </Link>
