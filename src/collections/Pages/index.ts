@@ -1,3 +1,8 @@
+import { AboutBlock } from '../../blocks/AboutBlock/config'
+import { EducationBlock } from '../../blocks/EducationBlock/config'
+import { SkillsBlock } from '../../blocks/SkillsBlock/config'
+import { ProjectsBlock } from '../../blocks/ProjectsBlock/config'
+import { ContactBlock } from '../../blocks/ContactBlock/config'
 import type { CollectionConfig } from 'payload'
 
 import { authenticated } from '../../access/authenticated'
@@ -72,7 +77,18 @@ export const Pages: CollectionConfig<'pages'> = {
             {
               name: 'layout',
               type: 'blocks',
-              blocks: [CallToAction, Content, MediaBlock, Archive, FormBlock],
+              blocks: [
+  AboutBlock,
+  EducationBlock,
+  SkillsBlock,
+  ProjectsBlock,
+  ContactBlock,
+  CallToAction,
+  Content,
+  MediaBlock,
+  Archive,
+  FormBlock,
+],
               required: true,
               admin: {
                 initCollapsed: true,
