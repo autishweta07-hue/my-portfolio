@@ -68,7 +68,7 @@ export const RenderBlocks: React.FC<{
                 : index
             }
           >
-            {/* @ts-expect-error Payload block types can differ between generated types */}
+            
             <Block
               {...block}
               disableInnerContainer
