@@ -24,7 +24,7 @@ export const InitTheme: React.FC = () => {
     }
 
     let themeToSet: 'light' | 'dark' =
-      defaultTheme === 'dark' ? 'dark' : 'light'
+      defaultTheme 
 
     const preference = window.localStorage.getItem(
       themeLocalStorageKey,
