@@ -70,7 +70,7 @@ export const RenderBlocks: React.FC<{
           >
             
             <Block
-              {...block}
+              {...(block as any)}
             />
           </div>
         )
