@@ -20,7 +20,9 @@ export const ProjectsBlockComponent: React.FC<Props> = ({
   projects = [],
 }) => {
   return (
-    <section className="w-full bg-white py-20">
+    <section 
+    id="project"
+    className="w-full bg-white py-20">
       <div className="container mx-auto px-6">
 
         {/* Heading */}
